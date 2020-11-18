@@ -1,5 +1,5 @@
 /**
- * Function that compares two arrays 
+ * Function that compares two arrays
  * and depends on their values returns the score for each one.
  *
  * For more details:
@@ -11,8 +11,8 @@
  */
 
 function compareTriplets(a, b) {
-  const isValidFirstParam = a.every(n => n < 100)
-  const isValidSecParam = b.every(n => n < 100)
+  const isValidFirstParam = a.length === 3 && a.every(n => n < 100)
+  const isValidSecParam = b.length === 3 && b.every(n => n < 100)
   if (!isValidFirstParam || !isValidSecParam) return
 
   const scores = [0, 0]
