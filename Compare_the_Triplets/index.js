@@ -1,7 +1,13 @@
 /**
+ * Function that compares two arrays 
+ * and depends on their values returns the score for each one.
  *
- * @param {Array} a Array of three numbers
- * @param {Array} b Array of three numbers
+ * For more details:
+ * {@link https://www.hackerrank.com/challenges/compare-the-triplets}
+ *
+ * @param {number[]} a Array of three numbers
+ * @param {number[]} b Array of three numbers
+ * @returns {number[]} An Array with a and b scores
  */
 
 function compareTriplets(a, b) {
