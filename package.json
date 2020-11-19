@@ -1,10 +1,9 @@
 {
-  "name": "compare_the_triplets",
+  "name": "hackerrank-challenges",
   "version": "1.0.0",
   "description": "HackerRank Challenge",
   "main": "index.js",
   "scripts": {
-    "start": "node ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
