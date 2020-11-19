@@ -3,7 +3,7 @@
  *
  * For more details:
  * {@link https://www.hackerrank.com/challenges/a-very-big-sum}
- * 
+ *
  * @param {Array.<number>} ar Array of numbers
  * @return {number}
  */
