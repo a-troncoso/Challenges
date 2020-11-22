@@ -2,6 +2,7 @@
 
 This repo hosts my solutions for HackeRank challenges
 
+- Simple Array Sum: [https://www.hackerrank.com/challenges/simple-array-sum/]()
 - Compare the Triplets: [https://www.hackerrank.com/challenges/compare-the-triplets/]()
 - A Very Big Sum: https: [//www.hackerrank.com/challenges/a-very-big-sum/]()
 - Diagonal Difference: [https://www.hackerrank.com/challenges/diagonal-difference/]()
@@ -9,4 +10,3 @@ This repo hosts my solutions for HackeRank challenges
 ---
 
 [https://www.hackerrank.com/]()
-
