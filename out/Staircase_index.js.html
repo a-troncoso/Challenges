@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: Source: A_Very_Big_Sum/index.js</title>
+    <title>JSDoc: Source: Staircase/index.js</title>
 
     <script src="scripts/prettify/prettify.js"> </script>
     <script src="scripts/prettify/lang-css.js"> </script>
@@ -17,7 +17,7 @@
 
 <div id="main">
 
-    <h1 class="page-title">Source: A_Very_Big_Sum/index.js</h1>
+    <h1 class="page-title">Source: Staircase/index.js</h1>
 
     
 
@@ -27,16 +27,32 @@
     <section>
         <article>
             <pre class="prettyprint source linenums"><code>/**
- * Function that returns sum of array of numbers
+ * Function that returns a staircase based on a number receive as param
  *
  * For more details:
- * {@link https://www.hackerrank.com/challenges/a-very-big-sum}
+ * {@link https://www.hackerrank.com/challenges/staircase/}
  *
- * @param {Array.&lt;number>} ar Array of numbers
- * @return {number}
+ * @param {Number} n Number that represents height and base of staircase
  */
-function aVeryBigSum(ar) {
-  return ar.reduce((a, b) => a + b)
+function staircase(n) {
+  const space = " "
+  const hash = "#"
+  const breakLine = "\n"
+
+  let charController = 1
+  let line = ""
+  let result = ""
+
+  while (charController &lt;= n) {
+    line = space.repeat(n - charController).concat(hash.repeat(charController))
+
+    if (charController &lt; n) line = line.concat(breakLine)
+
+    result = result.concat(line)
+    charController = charController + 1
+  }
+
+  console.log(result)
 }
 </code></pre>
         </article>
