@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: Source: Mini-Max_Sum/index.js</title>
+    <title>JSDoc: Source: Birthday_Cake_Candles/index.js</title>
 
     <script src="scripts/prettify/prettify.js"> </script>
     <script src="scripts/prettify/lang-css.js"> </script>
@@ -17,7 +17,7 @@
 
 <div id="main">
 
-    <h1 class="page-title">Source: Mini-Max_Sum/index.js</h1>
+    <h1 class="page-title">Source: Birthday_Cake_Candles/index.js</h1>
 
     
 
@@ -27,23 +27,18 @@
     <section>
         <article>
             <pre class="prettyprint source linenums"><code>/**
- * Function that returns the minimum and maximum values that can be calculated by summing exactly four of the five integers
+ * Function that returns
  *
  * For more details:
- * {@link https://www.hackerrank.com/challenges/mini-max-sum/}
+ * {@link https://www.hackerrank.com/challenges/birthday-cake-candles/}
  *
- * @param {Array.&lt;number>} arr
+ * @param {Array.&lt;number>} candles
  */
-function miniMaxSum(arr) {
-  const clonedArray = [...arr]
-  clonedArray.sort()
+function birthdayCakeCandles(candles) {
+  const mayor = Math.max(...candles)
+  const t = candles.filter(item => item === mayor).length
 
-  const maxSum = clonedArray.slice(1).reduce((a, b) => a + b)
-  const minSum = clonedArray
-    .slice(0, clonedArray.length - 1)
-    .reduce((a, b) => a + b)
-
-  console.log(`${minSum} ${maxSum}`)
+  return t
 }
 </code></pre>
         </article>
