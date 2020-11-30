@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: Source: Birthday_Cake_Candles/index.js</title>
+    <title>JSDoc: Source: Time_Conversion/index.js</title>
 
     <script src="scripts/prettify/prettify.js"> </script>
     <script src="scripts/prettify/lang-css.js"> </script>
@@ -17,7 +17,7 @@
 
 <div id="main">
 
-    <h1 class="page-title">Source: Birthday_Cake_Candles/index.js</h1>
+    <h1 class="page-title">Source: Time_Conversion/index.js</h1>
 
     
 
@@ -27,18 +27,34 @@
     <section>
         <article>
             <pre class="prettyprint source linenums"><code>/**
- * Function that returns
+ * Function that converts 12 hour AM/PM format to 24 hour military format
  *
  * For more details:
- * {@link https://www.hackerrank.com/challenges/birthday-cake-candles/}
+ * {@link https://www.hackerrank.com/challenges/time-conversion/}
  *
- * @param {Array.&lt;number>} candles
+ * @param {String} s String that represents time
+ * @returns {String} String that represents converted time
+ *
  */
-function birthdayCakeCandles(candles) {
-  const mayor = Math.max(...candles)
-  const t = candles.filter(item => item === mayor).length
 
-  return t
+function timeConversion(s) {
+  const timeParts = s.split(":")
+  const hour = timeParts[0]
+  const minutes = timeParts[1]
+  const seconds = timeParts[2].substring(0, 2)
+  const meridiem = timeParts[2].substring(2)
+
+  let convertedHour = ""
+
+  if (meridiem === "AM")
+    if (hour === "12") convertedHour = "00"
+    else convertedHour = hour
+  else if (meridiem === "PM")
+    if (hour === "12") convertedHour = hour
+    else convertedHour = +hour + 12
+  else convertedHour = hour
+
+  return `${convertedHour}:${minutes}:${seconds}`
 }
 </code></pre>
         </article>

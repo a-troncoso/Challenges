@@ -1,7 +1,7 @@
 {
   "recurseDepth": 10,
   "source": {
-    "include": ["A_Very_Big_Sum/index.js", "Compare_the_Triplets/index.js", "Diagonal_Difference/index.js", "Plus_Minus/index.js", "Staircase/index.js", "Mini-Max_Sum/index.js", "Birthday_Cake_Candles/index.js"],
+    "include": ["A_Very_Big_Sum/index.js", "Compare_the_Triplets/index.js", "Diagonal_Difference/index.js", "Plus_Minus/index.js", "Staircase/index.js", "Mini-Max_Sum/index.js", "Birthday_Cake_Candles/index.js", "Time_Conversion/index.js"],
     "includePattern": ".+\\.js$",
     "excludePattern": "(^|\\/|\\\\)_"
   },
