@@ -7,6 +7,10 @@ This repo hosts my solutions for HackeRank challenges
 - A Very Big Sum: https: [//www.hackerrank.com/challenges/a-very-big-sum/]()
 - Diagonal Difference: [https://www.hackerrank.com/challenges/diagonal-difference/]()
 - Plus Minus: [https://www.hackerrank.com/challenges/plus-minus/]()
+- Staircase: [https://www.hackerrank.com/challenges/staircase/]()
+- Mini-Max Sum: [https://www.hackerrank.com/challenges/mini-max-sum/]()
+- Birthday Cake Candles: [https://www.hackerrank.com/challenges/birthday-cake-candles/]()
+- Time_Conversion: [https://www.hackerrank.com/challenges/time-conversion/]()
 
 ---
 
