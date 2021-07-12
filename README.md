@@ -17,6 +17,7 @@ This repo hosts solutions worked with [@kikoken](https://github.com/kikoken/) fo
 
 [https://www.frontendmentor.io/]()
 
-https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX
+[https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX]()
+
 ---
 
