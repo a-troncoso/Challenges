@@ -1,6 +1,6 @@
-# HackerRank challenges solutions
+# Challenges solutions
 
-This repo hosts my solutions for HackeRank challenges
+This repo hosts solutions worked with [@kikoken](https://github.com/kikoken/) for some challenges 
 
 - Simple Array Sum: [https://www.hackerrank.com/challenges/simple-array-sum/]()
 - Compare the Triplets: [https://www.hackerrank.com/challenges/compare-the-triplets/]()
