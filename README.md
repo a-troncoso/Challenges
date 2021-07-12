@@ -2,6 +2,9 @@
 
 This repo hosts solutions worked with [@kikoken](https://github.com/kikoken/) for some challenges 
 
+
+[https://www.hackerrank.com/]()
+
 - Simple Array Sum: [https://www.hackerrank.com/challenges/simple-array-sum/]()
 - Compare the Triplets: [https://www.hackerrank.com/challenges/compare-the-triplets/]()
 - A Very Big Sum: https: [//www.hackerrank.com/challenges/a-very-big-sum/]()
@@ -12,6 +15,8 @@ This repo hosts solutions worked with [@kikoken](https://github.com/kikoken/) fo
 - Birthday Cake Candles: [https://www.hackerrank.com/challenges/birthday-cake-candles/]()
 - Time_Conversion: [https://www.hackerrank.com/challenges/time-conversion/]()
 
+[https://www.frontendmentor.io/]()
+
+https://www.frontendmentor.io/challenges/tip-calculator-app-ugJNGbJUX
 ---
 
-[https://www.hackerrank.com/]()
